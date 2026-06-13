@@ -216,6 +216,19 @@ main {
   font-size: 0.95rem;
 }
 
+.footer-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: var(--accent-strong);
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .grid {

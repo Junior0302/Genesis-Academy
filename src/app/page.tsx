@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://academy.genesisconnectstudio.com";
 
@@ -139,6 +141,10 @@ export default function HomePage() {
           Genesis Academy est pense comme un site dedie a la formation afin de garder un message clair,
           un design lumineux et un parcours commercial autonome par rapport au site principal.
         </p>
+        <div className="footer-links">
+          <Link href="/mentions-legales">Mentions legales</Link>
+          <Link href="/conditions-generales">Conditions d&apos;utilisation</Link>
+        </div>
       </div>
       <script
         type="application/ld+json"
